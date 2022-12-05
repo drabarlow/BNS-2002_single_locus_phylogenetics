@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Single locus phylogenetics</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Single locus phylogenetics">
+  <meta name="author" content="Dr Axel Barlow">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/zenburn.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/custom.css"></link>
+<link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+    
+  <slide class="nobackground">
+    <article class="flexbox vcenter">
+      <span>
+        <img width='300px' src="assets/img/A1_FullColour.svg">
+      </span>
+    </article>
+  </slide>
+    <slide class="title-slide segue nobackground">
+  
+  <aside class="gdbar">
+    <img src="assets/img/LA_Full_colour_reversed.svg">
+  </aside>
+  
+  <hgroup class="auto-fadein">
+    <h1>Single locus phylogenetics</h1>
+    <h2>BNS-2002: Genes, Development, and Evolution</h2>
+    <p>Dr Axel Barlow<br/>email: a.barlow@bangor.ac.uk</p>
+  </hgroup>
+  
+  <article></article>  
+      
+  <footer class = 'license'>
+    <a href='http://creativecommons.org/licenses/by-nc-sa/3.0/'>
+    <img width = '80px' src = 'http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png'>
+    </a>
+  </footer>
+  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  
+  <article data-timings="">
+    <!-- adding bold and italic options -->
+
+<style>
+em {
+  font-style: italic
+}
+strong {
+  font-weight: bold;
+}
+</style>
+
+<h2>Phylogenetics and population genetics lectures</h2>
+
+<ul>
+<li>Key concepts and Single locus phylogenetics
+
+<ul>
+<li>Theory</li>
+<li>Methods</li>
+<li>Discoveries</li>
+</ul></li>
+<li>Multi-locus phylogenetics</li>
+<li>Population structure</li>
+<li>Conservation genetics</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  
+  <hgroup>
+    <h2>The link between evolution and genetics</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p><img src="./assets/img/Charles_Darwin_by_Julia_Margaret_Cameron_2.jpg" alt="plot of chunk unnamed-chunk-1" width="80%" /></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="./assets/img/800px-Gregor_Mendel_2.jpg" alt="plot of chunk unnamed-chunk-2" width="75%" /></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  
+  <article data-timings="">
+    <p><q>Nothing in biology makes sense, except in the light of evolution</q> (Dobzhansky 1973)</p>
+
+<p><q>Nothing in evolution makes sense, except in the light of population genetics</q> (Lynch 2007)</p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="segue dark" id="slide-4" style="background:;">
+  
+  <hgroup>
+    <h2>Key concepts</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-5" style="background:;">
+  
+  <hgroup>
+    <h2>Your genome</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <ul>
+<li>Size in base-pairs?</li>
+<li>Size in cm?</li>
+<li>Mass in picograms?</li>
+<li>Number autosomes?</li>
+<li>Number of sex chromosomes?</li>
+<li>Number of genes?</li>
+<li>% that is protein coding?</li>
+<li>% that is functional?</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-6" style="background:;">
+  
+  <hgroup>
+    <h2>Your genome</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><img src="./assets/img/human_genome_dip.svg" alt="plot of chunk unnamed-chunk-3" width="90%" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-7" style="background:;">
+  
+  <hgroup>
+    <h2>Genetic locus (plural loci)</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <ul>
+<li>Working definition: &quot;a single position on a chromosome&quot;</li>
+<li>Different variants at a locus are called <strong>alleles</strong></li>
+<li>Difficult to determine in practise</li>
+<li>Simplistically a single nucleotide</li>
+<li>Extending beyond that depends on recombination</li>
+<li>Recombination results in independent evolutionary histories for unlinked loci</li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="./assets/img/recom.svg" alt="plot of chunk unnamed-chunk-4" width="90%" style="display: block; margin: auto;" /></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-8" style="background:;">
+  
+  <hgroup>
+    <h2>Examples</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <ul>
+<li>Single copy genes/exons (at least practically)</li>
+<li>SNPs</li>
+<li>Microsatellites</li>
+<li>Mitochondrial DNA is a single locus</li>
+<li>Y chromosome (more or less) a single locus</li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="./assets/img/1280px-Mitochondrial_DNA_en.svg.png" alt="plot of chunk unnamed-chunk-5" width="100%" style="display: block; margin: auto;" /></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-9" style="background:;">
+  
+  <hgroup>
+    <h2>Neutral evolution</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:64%;' class='centered'>
+  <ul>
+<li>Often people think about evolution in terms of natural selection</li>
+<li>What if there is no selection?</li>
+<li>Motoo Kimura: Neutral theory of molecular evolution, 1968</li>
+<li>Loci evolve by genetic drift</li>
+<li>Drift is determined by the population (size and gene flow)</li>
+<li>Basis of population genetics and phylogenetics</li>
+<li>&quot;Null hypothesis&quot; of molecular evolution</li>
+</ul>
+
+</div>
+<div style='float:right;width:31%;'>
+  <p><img src="./assets/img/Motoo_Kimura.jpg" alt="plot of chunk unnamed-chunk-6" width="90%" style="display: block; margin: auto;" /></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-10" style="background:;">
+  
+  <hgroup>
+    <h2>Genetic drift</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <h3>Differential reproductive success between generations</h3>
+
+<p><img src="./assets/img/mnm.png" alt="plot of chunk unnamed-chunk-7" width="90%" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-11" style="background:;">
+  
+  <hgroup>
+    <h2>Simulator</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <iframe src = 'https://www.whfreeman.com/BrainHoney/Resource/6716/SitebuilderUploads/Hillis2e/Student%20Resources/Animated%20Tutorials/pol2e_at_1502_genetic_drift_simulation/pol2e_at_1502_genetic_drift_simulation.html' height='600px'></iframe>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="segue dark" id="slide-12" style="background:;">
+  
+  <hgroup>
+    <h2>Single locus phylogenetics - theory</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-13" style="background:;">
+  
+  <hgroup>
+    <h2>Molecular dating of sabretooth cats</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><img src="./assets/img/sabre_tree.svg" alt="plot of chunk unnamed-chunk-8" width="85%" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-14" style="background:;">
+  
+  <hgroup>
+    <h2>Single locus tree (AKA gene tree)</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <ul>
+<li>Evolutionary history of a genetic locus, represented as a tree</li>
+<li>(not always an actual gene)</li>
+<li>Can be used to infer species or population histories*</li>
+<li>Any recombining genome has multiple loci, each with its own gene tree</li>
+<li>Easy to calculate using genetic data (often sequences)</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-15" style="background:;">
+  
+  <hgroup>
+    <h2>Example: mitochondrial tree</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><img src="./assets/img/mtDNA_tree.svg" alt="plot of chunk unnamed-chunk-9" width="80%" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-16" style="background:;">
+  
+  <hgroup>
+    <h2>Gene tree terminology</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><img src="./assets/img/term.png" alt="plot of chunk unnamed-chunk-10" width="90%" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-17" style="background:;">
+  
+  <hgroup>
+    <h2>Clades</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p><img src="./assets/img/clade_eg.svg" alt="plot of chunk unnamed-chunk-11" width="50%" style="display: block; margin: auto;" /></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <ul>
+<li>A clade contains one ancestor and all its descendents</li>
+<li>It is a monophyletic group</li>
+<li>Modern taxonomy (generally) tries to align with clades</li>
+</ul>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-18" style="background:;">
+  
+  <hgroup>
+    <h2>How does the tree form: lineage sorting</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><img src="./assets/img/linsort1.svg" alt="plot of chunk unnamed-chunk-12" width="100%" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-19" style="background:;">
+  
+  <hgroup>
+    <h2>How does the tree form: lineage sorting</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><img src="./assets/img/linsort2.svg" alt="plot of chunk unnamed-chunk-13" width="100%" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-20" style="background:;">
+  
+  <hgroup>
+    <h2>How does the tree form: lineage sorting</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><img src="./assets/img/linsort3.svg" alt="plot of chunk unnamed-chunk-14" width="100%" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-21" style="background:;">
+  
+  <hgroup>
+    <h2>How does the tree form: lineage sorting</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><img src="./assets/img/linsort4.svg" alt="plot of chunk unnamed-chunk-15" width="100%" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-22" style="background:;">
+  
+  <hgroup>
+    <h2>How does the tree form: lineage sorting</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><img src="./assets/img/linsort5.svg" alt="plot of chunk unnamed-chunk-16" width="100%" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-23" style="background:;">
+  
+  <hgroup>
+    <h2>Lineage sorting summary</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <ul>
+<li>Drift sorts the lineages into clades</li>
+<li>This takes time, we can&#39;t detect the divergence immediately</li>
+<li>We go through stages of complete/incomplete monophyly</li>
+<li>incomplete to complete lineage sorting</li>
+<li>lineage sorting is faster when the population size is small (= more drift)</li>
+<li>Mutation builds upon the clades, monophyly is retained [unless there is gene flow]</li>
+<li>ILS can be a real problem for inferring relationships, especially in large populaitons with recent divergence events</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="segue dark" id="slide-24" style="background:;">
+  
+  <hgroup>
+    <h2>Single locus phylogenetics - methods</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-25" style="background:;">
+  
+  <hgroup>
+    <h2>PCR and Sanger sequencing</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><embed src="./assets/img/BNS2002_prac_protocol.pdf" title="plot of chunk unnamed-chunk-17" width="100%" height="500" type="application/pdf" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-26" style="background:;">
+  
+  <hgroup>
+    <h2>Next generation sequencing</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><img src="./assets/img/aDNA_seq.svg" alt="plot of chunk unnamed-chunk-18" width="95%" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-27" style="background:;">
+  
+  <hgroup>
+    <h2>NGS: ancient DNA</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <ul>
+<li>Fragmented ancient DNA is challenging for PCR</li>
+<li>NGS allows whole DNA molecules to be sequenced</li>
+<li>High levels of contamination</li>
+<li>Hybridisation capture often used</li>
+<li>Especially for complete mitochondrial genome sequences</li>
+</ul>
+
+<p><img src="./assets/img/hybr.svg" alt="plot of chunk unnamed-chunk-19" width="70%" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-28" style="background:;">
+  
+  <hgroup>
+    <h2>NGS: metabarcoding</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><img src="./assets/img/DNA_(meta)barcoding_differences.svg" alt="plot of chunk unnamed-chunk-20" width="100%" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="segue dark" id="slide-29" style="background:;">
+  
+  <hgroup>
+    <h2>Single locus phylogenetics - discoveries</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-30" style="background:;">
+  
+  <hgroup>
+    <h2>Macrauchenia</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <ul>
+<li>Native South American mammal, in order Liptoterna</li>
+<li>Appeared 7 Ma</li>
+<li>Last species, <em>M. patachonica</em>, extinct ~10 Ka</li>
+<li>First collected 1834 in Argentina by Charles Darwin, on HMS Beagle. Identified as &quot;some large animal, I fancy a Mastodon&quot;.</li>
+<li>Divergence time from extant mammals unknown</li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="./assets/img/WWB_Macrauchenia_render.webp" alt="plot of chunk unnamed-chunk-21" width="100%" style="display: block; margin: auto;" /></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-31" style="background:;">
+  
+  <hgroup>
+    <h2>Macrauchenia mitogenome phylogeny</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><img src="./assets/img/macrauch.svg" alt="plot of chunk unnamed-chunk-22" width="100%" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-32" style="background:;">
+  
+  <hgroup>
+    <h2>Giant beaver (<em>Castoroides</em>)</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <ul>
+<li>2 m long, up to 125 kg, 15 cm incisors</li>
+<li>Extinct ~12 Ka, coinciding with arrivial of Clovis</li>
+<li>Several derived adapatations for wood cutting and aquatic life</li>
+<li>Information on evolution of &quot;ecosystem engineers&quot;?</li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="./assets/img/castoroides-size.jpg" alt="plot of chunk unnamed-chunk-23" width="85%" style="display: block; margin: auto;" /></p>
+
+<p><img src="./assets/img/Giant-beaver-fieldmuseum.jpg" alt="plot of chunk unnamed-chunk-24" width="85%" style="display: block; margin: auto;" /></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-33" style="background:;">
+  
+  <hgroup>
+    <h2>Giant beaver mitogenome phylogeny</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><img src="./assets/img/castor_tree.svg" alt="plot of chunk unnamed-chunk-25" width="80%" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-34" style="background:;">
+  
+  <hgroup>
+    <h2>Mediterranean Dwarf elephants</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <ul>
+<li>Multiple Mediterranean islands</li>
+<li>1.5 to 2.3 m at shoulder</li>
+<li>Direct ancestor is <em>Palaeoloxodon antiquus</em></li>
+<li>Example of insular dwarfism</li>
+<li>Phylogeny could provide information on the dwarfing rate</li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="./assets/img/Elephas mnaidriensis Grotta Puntali di notte.jpg" alt="plot of chunk unnamed-chunk-26" width="60%" style="display: block; margin: auto;" /></p>
+
+<p><img src="./assets/img/Palaeoloxodon_falconeri_Size_Comparison.svg.png" alt="plot of chunk unnamed-chunk-27" width="100%" style="display: block; margin: auto;" /></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-35" style="background:;">
+  
+  <hgroup>
+    <h2>Dwarfing rate</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p><img src="./assets/img/dwarf.svg" alt="plot of chunk unnamed-chunk-28" width="100%" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-36" style="background:;">
+  
+  <hgroup>
+    <h2>Background reading</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <ul>
+<li>Any phylogenetics chapters in the course text book, especially:</li>
+<li>*<em>Avise (2004) Molecular markers, natural history, and evolution *</em></li>
+<li><strong>Page &amp; Holmes (1998) Molecular evolution: a phylogenetic approach</strong></li>
+<li>Papers for case studies at end of lecture</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-37" style="background:;">
+  
+  <article data-timings="">
+    <p><embed src="./assets/img/Westbury et al. - 2017 - A mitogenomic timetree for Darwin’s enigmatic South American mammal Macrauchenia patachonica.pdf" title="plot of chunk unnamed-chunk-29" width="100%" height="500" type="application/pdf" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-38" style="background:;">
+  
+  <article data-timings="">
+    <p><embed src="./assets/img/Xenikoudakis et al. - 2020 - Ancient DNA reveals twenty million years of aquatic life in beavers.pdf" title="plot of chunk unnamed-chunk-30" width="100%" height="500" type="application/pdf" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="" id="slide-39" style="background:;">
+  
+  <article data-timings="">
+    <p><embed src="./assets/img/Baleka et al. - 2021 - Estimating the dwarfing rate of an extinct Sicilian elephant.pdf" title="plot of chunk unnamed-chunk-31" width="100%" height="500" type="application/pdf" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="thank-you-slide segue nobackground" id="slide-40">
+  <aside class="gdbar right"><img src="assets/img/LA_Full_colour_reversed.svg"></aside>
+  <article class="flexbox vleft auto-fadein">
+    <h2>Next time</h2>
+    <p><strong>Multilocus phylogenetics</strong></p>
+
+  </article>
+
+  <p class="auto-fadein" data-config-contact="">
+    
+  </p>
+</slide>
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='NA'>
+         1
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='The link between evolution and genetics'>
+         2
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='NA'>
+         3
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Key concepts'>
+         4
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Your genome'>
+         5
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='Your genome'>
+         6
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=7 title='Genetic locus (plural loci)'>
+         7
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=8 title='Examples'>
+         8
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=9 title='Neutral evolution'>
+         9
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=10 title='Genetic drift'>
+         10
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=11 title='Simulator'>
+         11
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=12 title='Single locus phylogenetics - theory'>
+         12
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=13 title='Molecular dating of sabretooth cats'>
+         13
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=14 title='Single locus tree (AKA gene tree)'>
+         14
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=15 title='Example: mitochondrial tree'>
+         15
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=16 title='Gene tree terminology'>
+         16
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=17 title='Clades'>
+         17
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=18 title='How does the tree form: lineage sorting'>
+         18
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=19 title='How does the tree form: lineage sorting'>
+         19
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=20 title='How does the tree form: lineage sorting'>
+         20
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=21 title='How does the tree form: lineage sorting'>
+         21
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=22 title='How does the tree form: lineage sorting'>
+         22
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=23 title='Lineage sorting summary'>
+         23
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=24 title='Single locus phylogenetics - methods'>
+         24
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=25 title='PCR and Sanger sequencing'>
+         25
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=26 title='Next generation sequencing'>
+         26
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=27 title='NGS: ancient DNA'>
+         27
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=28 title='NGS: metabarcoding'>
+         28
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=29 title='Single locus phylogenetics - discoveries'>
+         29
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=30 title='Macrauchenia'>
+         30
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=31 title='Macrauchenia mitogenome phylogeny'>
+         31
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=32 title='Giant beaver (<em>Castoroides</em>)'>
+         32
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=33 title='Giant beaver mitogenome phylogeny'>
+         33
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=34 title='Mediterranean Dwarf elephants'>
+         34
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=35 title='Dwarfing rate'>
+         35
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=36 title='Background reading'>
+         36
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=37 title='NA'>
+         37
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=38 title='NA'>
+         38
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=39 title='NA'>
+         39
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=40 title='Next time'>
+         40
+      </a>
+    </li>
+    
+    </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
