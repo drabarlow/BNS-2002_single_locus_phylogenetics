@@ -1,5 +1,5 @@
 ---
-title       : "Single locus phylogenetics"
+title       : "Phylogenetics and population genetics"
 subtitle    : "BNS-2002: Genes, Development, and Evolution"
 author      : Dr Axel Barlow
 job         : "email: a.barlow@bangor.ac.uk"
@@ -30,7 +30,7 @@ strong {
 
 ## Phylogenetics and population genetics lectures
 
-- Key concepts and Single locus phylogenetics
+- **Key concepts and Single locus phylogenetics**
   - Theory
   - Methods
   - Discoveries
@@ -38,17 +38,28 @@ strong {
 - Population structure
 - Conservation genetics
 
+--- 
+
+## MEEB
+
+**Molecular Ecology and Evolution at Bangor**
+
+<img src="./assets/img/mb.svg" width="100%" style="display: block; margin: auto;" />
+
+- 3rd year module "Molecular ecology and evolution"
+- Dissertation and MSc projects
+
 --- &twocol
 
 ## The link between evolution and genetics
 
 *** =left
 
-<img src="./assets/img/Charles_Darwin_by_Julia_Margaret_Cameron_2.jpg" alt="plot of chunk unnamed-chunk-1" width="80%" />
+<img src="./assets/img/Charles_Darwin_by_Julia_Margaret_Cameron_2.jpg" width="80%" style="display: block; margin: auto;" />
 
 *** =right
 
-<img src="./assets/img/800px-Gregor_Mendel_2.jpg" alt="plot of chunk unnamed-chunk-2" width="75%" />
+<img src="./assets/img/800px-Gregor_Mendel_2.jpg" width="75%" />
 
 ---
 
@@ -77,7 +88,7 @@ strong {
 
 ## Your genome
 
-<img src="./assets/img/human_genome_dip.svg" alt="plot of chunk unnamed-chunk-3" width="90%" />
+<img src="./assets/img/human_genome_dip.svg" width="90%" />
 
 --- &twocol
 
@@ -94,7 +105,7 @@ strong {
 
 *** =right
 
-<img src="./assets/img/recom.svg" alt="plot of chunk unnamed-chunk-4" width="90%" style="display: block; margin: auto;" />
+<img src="./assets/img/recom.svg" width="90%" style="display: block; margin: auto;" />
 
 --- &twocol
 
@@ -110,7 +121,7 @@ strong {
 
 *** =right
 
-<img src="./assets/img/1280px-Mitochondrial_DNA_en.svg.png" alt="plot of chunk unnamed-chunk-5" width="100%" style="display: block; margin: auto;" />
+<img src="./assets/img/1280px-Mitochondrial_DNA_en.svg.png" width="100%" style="display: block; margin: auto;" />
 
 --- &thirds
 
@@ -128,15 +139,13 @@ strong {
 
 *** =right
 
-<img src="./assets/img/Motoo_Kimura.jpg" alt="plot of chunk unnamed-chunk-6" width="90%" style="display: block; margin: auto;" />
+<img src="./assets/img/Motoo_Kimura.jpg" width="90%" style="display: block; margin: auto;" />
 
 ---
 
 ## Genetic drift
 
-### Differential reproductive success between generations
-
-<img src="./assets/img/mnm.png" alt="plot of chunk unnamed-chunk-7" width="90%" style="display: block; margin: auto;" />
+<embed src="./assets/img/Practical2_handout_2023.pdf" width="100%" height="500" type="application/pdf" />
 
 ---
 
@@ -152,7 +161,7 @@ strong {
 
 ## Molecular dating of sabretooth cats
 
-<img src="./assets/img/sabre_tree.svg" alt="plot of chunk unnamed-chunk-8" width="85%" style="display: block; margin: auto;" />
+<img src="./assets/img/sabre_tree.svg" width="85%" style="display: block; margin: auto;" />
 
 ---
 
@@ -168,13 +177,13 @@ strong {
 
 ## Example: mitochondrial tree
 
-<img src="./assets/img/mtDNA_tree.svg" alt="plot of chunk unnamed-chunk-9" width="80%" style="display: block; margin: auto;" />
+<img src="./assets/img/mtDNA_tree.svg" width="80%" style="display: block; margin: auto;" />
 
 ---
 
 ## Gene tree terminology
 
-<img src="./assets/img/term.png" alt="plot of chunk unnamed-chunk-10" width="90%" style="display: block; margin: auto;" />
+<img src="./assets/img/term.png" width="90%" style="display: block; margin: auto;" />
 
 --- &twocol
 
@@ -182,7 +191,7 @@ strong {
 
 *** =left
 
-<img src="./assets/img/clade_eg.svg" alt="plot of chunk unnamed-chunk-11" width="50%" style="display: block; margin: auto;" />
+<img src="./assets/img/clade_eg.svg" width="50%" style="display: block; margin: auto;" />
 
 *** =right
 
@@ -194,31 +203,31 @@ strong {
 
 ## How does the tree form: lineage sorting
 
-<img src="./assets/img/linsort1.svg" alt="plot of chunk unnamed-chunk-12" width="100%" style="display: block; margin: auto;" />
+<img src="./assets/img/linsort1.svg" width="100%" style="display: block; margin: auto;" />
 
 ---
 
 ## How does the tree form: lineage sorting
 
-<img src="./assets/img/linsort2.svg" alt="plot of chunk unnamed-chunk-13" width="100%" style="display: block; margin: auto;" />
+<img src="./assets/img/linsort2.svg" width="100%" style="display: block; margin: auto;" />
 
 ---
 
 ## How does the tree form: lineage sorting
 
-<img src="./assets/img/linsort3.svg" alt="plot of chunk unnamed-chunk-14" width="100%" style="display: block; margin: auto;" />
+<img src="./assets/img/linsort3.svg" width="100%" style="display: block; margin: auto;" />
 
 ---
 
 ## How does the tree form: lineage sorting
 
-<img src="./assets/img/linsort4.svg" alt="plot of chunk unnamed-chunk-15" width="100%" style="display: block; margin: auto;" />
+<img src="./assets/img/linsort4.svg" width="100%" style="display: block; margin: auto;" />
 
 ---
 
 ## How does the tree form: lineage sorting
 
-<img src="./assets/img/linsort5.svg" alt="plot of chunk unnamed-chunk-16" width="100%" style="display: block; margin: auto;" />
+<img src="./assets/img/linsort5.svg" width="100%" style="display: block; margin: auto;" />
 
 ---
 
@@ -236,17 +245,33 @@ strong {
 
 ## Single locus phylogenetics - methods
 
+--- &twocol
+
+## PCR and Sanger sequencing
+
+*** =left
+
+<img src="./assets/img/abi_3130.svg" width="100%" style="display: block; margin: auto;" />
+
+*** =right
+
+- 700-1000 bp reads
+- High accuracy
+- 384 samples
+- 1 day
+- Dominated for 3 decades
+
 ---
 
 ## PCR and Sanger sequencing
 
-<embed src="./assets/img/BNS2002_prac_protocol.pdf" title="plot of chunk unnamed-chunk-17" width="100%" height="500" type="application/pdf" />
+<embed src="./assets/img/Practical2_handout_2023.pdf" width="100%" height="500" type="application/pdf" />
 
 ---
 
 ## Next generation sequencing
 
-<img src="./assets/img/aDNA_seq.svg" alt="plot of chunk unnamed-chunk-18" width="95%" style="display: block; margin: auto;" />
+<img src="./assets/img/aDNA_seq.svg" width="95%" style="display: block; margin: auto;" />
 
 ---
 
@@ -258,13 +283,13 @@ strong {
 - Hybridisation capture often used
 - Especially for complete mitochondrial genome sequences
 
-<img src="./assets/img/hybr.svg" alt="plot of chunk unnamed-chunk-19" width="70%" style="display: block; margin: auto;" />
+<img src="./assets/img/hybr.svg" width="70%" style="display: block; margin: auto;" />
 
 ---
 
 ## NGS: metabarcoding
 
-<img src="./assets/img/DNA_(meta)barcoding_differences.svg" alt="plot of chunk unnamed-chunk-20" width="100%" style="display: block; margin: auto;" />
+<img src="./assets/img/DNA_(meta)barcoding_differences.svg" width="100%" style="display: block; margin: auto;" />
 
 --- .segue .dark 
 
@@ -284,13 +309,19 @@ strong {
 
 *** =right
 
-<img src="./assets/img/WWB_Macrauchenia_render.webp" alt="plot of chunk unnamed-chunk-21" width="100%" style="display: block; margin: auto;" />
+<img src="./assets/img/WWB_Macrauchenia_render.webp" width="100%" style="display: block; margin: auto;" />
 
 ---
 
 ## Macrauchenia mitogenome phylogeny
 
-<img src="./assets/img/macrauch.svg" alt="plot of chunk unnamed-chunk-22" width="100%" style="display: block; margin: auto;" />
+<img src="./assets/img/macrauch.svg" width="100%" style="display: block; margin: auto;" />
+
+---
+
+## Macrauchenia mitogenome phylogeny
+
+<embed src="./assets/img/Westbury et al. - 2017 - A mitogenomic timetree for Darwin’s enigmatic South American mammal Macrauchenia patachonica.pdf" width="100%" height="500" type="application/pdf" />
 
 --- &twocol
 
@@ -299,21 +330,27 @@ strong {
 *** =left
 
 - 2 m long, up to 125 kg, 15 cm incisors
-- Extinct ~12 Ka, coinciding with arrivial of Clovis
+- Extinct ~12 Ka, coinciding with arrival of Clovis people
 - Several derived adapatations for wood cutting and aquatic life
 - Information on evolution of "ecosystem engineers"?
 
 *** =right
 
-<img src="./assets/img/castoroides-size.jpg" alt="plot of chunk unnamed-chunk-23" width="85%" style="display: block; margin: auto;" />
+<img src="./assets/img/castoroides-size.jpg" width="85%" style="display: block; margin: auto;" />
 
-<img src="./assets/img/Giant-beaver-fieldmuseum.jpg" alt="plot of chunk unnamed-chunk-24" width="85%" style="display: block; margin: auto;" />
+<img src="./assets/img/Giant-beaver-fieldmuseum.jpg" width="85%" style="display: block; margin: auto;" />
 
 ---
 
 ## Giant beaver mitogenome phylogeny
 
-<img src="./assets/img/castor_tree.svg" alt="plot of chunk unnamed-chunk-25" width="80%" style="display: block; margin: auto;" />
+<img src="./assets/img/castor_tree.svg" width="80%" style="display: block; margin: auto;" />
+
+---
+
+## Giant beaver mitogenome phylogeny
+
+<embed src="./assets/img/Xenikoudakis et al. - 2020 - Ancient DNA reveals twenty million years of aquatic life in beavers.pdf" width="100%" height="500" type="application/pdf" />
 
 --- &twocol
 
@@ -330,36 +367,30 @@ strong {
 
 *** =right
 
-<img src="./assets/img/Elephas mnaidriensis Grotta Puntali di notte.jpg" alt="plot of chunk unnamed-chunk-26" width="60%" style="display: block; margin: auto;" />
+<img src="./assets/img/Elephas mnaidriensis Grotta Puntali di notte.jpg" width="60%" style="display: block; margin: auto;" />
 
-<img src="./assets/img/Palaeoloxodon_falconeri_Size_Comparison.svg.png" alt="plot of chunk unnamed-chunk-27" width="100%" style="display: block; margin: auto;" />
+<img src="./assets/img/Palaeoloxodon_falconeri_Size_Comparison.svg.png" width="100%" style="display: block; margin: auto;" />
 
 ---
 
 ## Dwarfing rate
 
-<img src="./assets/img/dwarf.svg" alt="plot of chunk unnamed-chunk-28" width="100%" style="display: block; margin: auto;" />
+<img src="./assets/img/dwarf.svg" width="100%" style="display: block; margin: auto;" />
+
+---
+
+## Dwarfing rate
+
+<embed src="./assets/img/Baleka et al. - 2021 - Estimating the dwarfing rate of an extinct Sicilian elephant.pdf" width="100%" height="500" type="application/pdf" />
 
 ---
 
 ## Background reading
 
 - Any phylogenetics chapters in the course text book, especially:
-- **Avise (2004) Molecular markers, natural history, and evolution **
-- **Page & Holmes (1998) Molecular evolution: a phylogenetic approach**
-- Papers for case studies at end of lecture
-
----
-
-<embed src="./assets/img/Westbury et al. - 2017 - A mitogenomic timetree for Darwin’s enigmatic South American mammal Macrauchenia patachonica.pdf" title="plot of chunk unnamed-chunk-29" width="100%" height="500" type="application/pdf" />
-
----
-
-<embed src="./assets/img/Xenikoudakis et al. - 2020 - Ancient DNA reveals twenty million years of aquatic life in beavers.pdf" title="plot of chunk unnamed-chunk-30" width="100%" height="500" type="application/pdf" />
-
----
-
-<embed src="./assets/img/Baleka et al. - 2021 - Estimating the dwarfing rate of an extinct Sicilian elephant.pdf" title="plot of chunk unnamed-chunk-31" width="100%" height="500" type="application/pdf" />
+- Avise (2004) Molecular markers, natural history, and evolution
+- Page & Holmes (1998) Molecular evolution: a phylogenetic approach
+- Papers for case studies
 
 --- &thankyou
 

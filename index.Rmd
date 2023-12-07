@@ -1,5 +1,5 @@
 ---
-title       : "Single locus phylogenetics"
+title       : "Phylogenetics and population genetics"
 subtitle    : "BNS-2002: Genes, Development, and Evolution"
 author      : Dr Axel Barlow
 job         : "email: a.barlow@bangor.ac.uk"
@@ -36,7 +36,7 @@ strong {
 
 ## Phylogenetics and population genetics lectures
 
-- Key concepts and Single locus phylogenetics
+- **Key concepts and Single locus phylogenetics**
   - Theory
   - Methods
   - Discoveries
@@ -44,19 +44,32 @@ strong {
 - Population structure
 - Conservation genetics
 
+--- 
+
+## MEEB
+
+**Molecular Ecology and Evolution at Bangor**
+
+```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
+include_graphics("./assets/img/mb.svg")
+```
+
+- 3rd year module "Molecular ecology and evolution"
+- Dissertation and MSc projects
+
 --- &twocol
 
 ## The link between evolution and genetics
 
 *** =left
 
-```{r, out.width = "80%", dpi = 300, echo = FALSE, fig.align='centre'}
+```{r, out.width = "80%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/Charles_Darwin_by_Julia_Margaret_Cameron_2.jpg")
 ```
 
 *** =right
 
-```{r, out.width = "75%", dpi = 300, echo = FALSE, fig.align='centre'}
+```{r, out.width = "75%", dpi = 300, echo = FALSE, fig.align='centre', fig.cap=""}
 include_graphics("./assets/img/800px-Gregor_Mendel_2.jpg")
 ```
 
@@ -87,7 +100,7 @@ include_graphics("./assets/img/800px-Gregor_Mendel_2.jpg")
 
 ## Your genome
 
-```{r, out.width = "90%", dpi = 300, echo = FALSE, fig.align='centre'}
+```{r, out.width = "90%", dpi = 300, echo = FALSE, fig.align='centre', fig.cap=""}
 include_graphics("./assets/img/human_genome_dip.svg")
 ```
 
@@ -106,7 +119,7 @@ include_graphics("./assets/img/human_genome_dip.svg")
 
 *** =right
 
-```{r, out.width = "90%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "90%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/recom.svg")
 ```
 
@@ -124,7 +137,7 @@ include_graphics("./assets/img/recom.svg")
 
 *** =right
 
-```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/1280px-Mitochondrial_DNA_en.svg.png")
 ```
 
@@ -144,7 +157,7 @@ include_graphics("./assets/img/1280px-Mitochondrial_DNA_en.svg.png")
 
 *** =right
 
-```{r, out.width = "90%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "90%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/Motoo_Kimura.jpg")
 ```
 
@@ -152,10 +165,8 @@ include_graphics("./assets/img/Motoo_Kimura.jpg")
 
 ## Genetic drift
 
-### Differential reproductive success between generations
-
-```{r, out.width = "90%", dpi = 300, echo = FALSE, fig.align='center'}
-include_graphics("./assets/img/mnm.png")
+```{r, out.width = "100%", out.height=500, dpi = 300, echo = FALSE, fig.cap=""}
+  include_graphics("./assets/img/Practical2_handout_2023.pdf")
 ```
 
 ---
@@ -172,7 +183,7 @@ include_graphics("./assets/img/mnm.png")
 
 ## Molecular dating of sabretooth cats
 
-```{r, out.width = "85%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "85%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/sabre_tree.svg")
 ```
 
@@ -190,7 +201,7 @@ include_graphics("./assets/img/sabre_tree.svg")
 
 ## Example: mitochondrial tree
 
-```{r, out.width = "80%", dpi = 300, echo = FALSE, fig.align = "center"}
+```{r, out.width = "80%", dpi = 300, echo = FALSE, fig.align = "center", fig.cap=""}
   include_graphics("./assets/img/mtDNA_tree.svg")
 ```
 
@@ -198,7 +209,7 @@ include_graphics("./assets/img/sabre_tree.svg")
 
 ## Gene tree terminology
 
-```{r, out.width = "90%", dpi = 300, echo = FALSE, fig.align = "center"}
+```{r, out.width = "90%", dpi = 300, echo = FALSE, fig.align = "center", fig.cap=""}
   include_graphics("./assets/img/term.png")
 ```
 
@@ -208,7 +219,7 @@ include_graphics("./assets/img/sabre_tree.svg")
 
 *** =left
 
-```{r, out.width = "50%", dpi = 300, echo = FALSE, fig.align = "center"}
+```{r, out.width = "50%", dpi = 300, echo = FALSE, fig.align = "center", fig.cap=""}
   include_graphics("./assets/img/clade_eg.svg")
 ```
 
@@ -222,7 +233,7 @@ include_graphics("./assets/img/sabre_tree.svg")
 
 ## How does the tree form: lineage sorting
 
-```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align = "center"}
+```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align = "center", fig.cap=""}
   include_graphics("./assets/img/linsort1.svg")
 ```
 
@@ -230,7 +241,7 @@ include_graphics("./assets/img/sabre_tree.svg")
 
 ## How does the tree form: lineage sorting
 
-```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align = "center"}
+```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align = "center", fig.cap=""}
   include_graphics("./assets/img/linsort2.svg")
 ```
 
@@ -238,7 +249,7 @@ include_graphics("./assets/img/sabre_tree.svg")
 
 ## How does the tree form: lineage sorting
 
-```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align = "center"}
+```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align = "center", fig.cap=""}
   include_graphics("./assets/img/linsort3.svg")
 ```
 
@@ -246,7 +257,7 @@ include_graphics("./assets/img/sabre_tree.svg")
 
 ## How does the tree form: lineage sorting
 
-```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align = "center"}
+```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align = "center", fig.cap=""}
   include_graphics("./assets/img/linsort4.svg")
 ```
 
@@ -254,7 +265,7 @@ include_graphics("./assets/img/sabre_tree.svg")
 
 ## How does the tree form: lineage sorting
 
-```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align = "center"}
+```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align = "center", fig.cap=""}
   include_graphics("./assets/img/linsort5.svg")
 ```
 
@@ -274,19 +285,37 @@ include_graphics("./assets/img/sabre_tree.svg")
 
 ## Single locus phylogenetics - methods
 
+--- &twocol
+
+## PCR and Sanger sequencing
+
+*** =left
+
+```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align = "center", fig.cap=""}
+  include_graphics("./assets/img/abi_3130.svg")
+```
+
+*** =right
+
+- 700-1000 bp reads
+- High accuracy
+- 384 samples
+- 1 day
+- Dominated for 3 decades
+
 ---
 
 ## PCR and Sanger sequencing
 
-```{r, out.width = "100%", out.height=500, dpi = 300, echo = FALSE}
-  include_graphics("./assets/img/BNS2002_prac_protocol.pdf")
+```{r, out.width = "100%", out.height=500, dpi = 300, echo = FALSE, fig.cap=""}
+  include_graphics("./assets/img/Practical2_handout_2023.pdf")
 ```
 
 ---
 
 ## Next generation sequencing
 
-```{r, out.width = "95%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "95%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/aDNA_seq.svg")
 ```
 
@@ -300,7 +329,7 @@ include_graphics("./assets/img/aDNA_seq.svg")
 - Hybridisation capture often used
 - Especially for complete mitochondrial genome sequences
 
-```{r, out.width = "70%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "70%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/hybr.svg")
 ```
 
@@ -308,7 +337,7 @@ include_graphics("./assets/img/hybr.svg")
 
 ## NGS: metabarcoding
 
-```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/DNA_(meta)barcoding_differences.svg")
 ```
 
@@ -330,7 +359,7 @@ include_graphics("./assets/img/DNA_(meta)barcoding_differences.svg")
 
 *** =right
 
-```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/WWB_Macrauchenia_render.webp")
 ```
 
@@ -338,8 +367,16 @@ include_graphics("./assets/img/WWB_Macrauchenia_render.webp")
 
 ## Macrauchenia mitogenome phylogeny
 
-```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/macrauch.svg")
+```
+
+---
+
+## Macrauchenia mitogenome phylogeny
+
+```{r, out.width = "100%", out.height=500, dpi = 300, echo = FALSE, fig.cap=""}
+  include_graphics("./assets/img/Westbury et al. - 2017 - A mitogenomic timetree for Darwin’s enigmatic South American mammal Macrauchenia patachonica.pdf")
 ```
 
 --- &twocol
@@ -349,17 +386,17 @@ include_graphics("./assets/img/macrauch.svg")
 *** =left
 
 - 2 m long, up to 125 kg, 15 cm incisors
-- Extinct ~12 Ka, coinciding with arrivial of Clovis
+- Extinct ~12 Ka, coinciding with arrival of Clovis people
 - Several derived adapatations for wood cutting and aquatic life
 - Information on evolution of "ecosystem engineers"?
 
 *** =right
 
-```{r, out.width = "85%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "85%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/castoroides-size.jpg")
 ```
 
-```{r, out.width = "85%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "85%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/Giant-beaver-fieldmuseum.jpg")
 ```
 
@@ -367,8 +404,16 @@ include_graphics("./assets/img/Giant-beaver-fieldmuseum.jpg")
 
 ## Giant beaver mitogenome phylogeny
 
-```{r, out.width = "80%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "80%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/castor_tree.svg")
+```
+
+---
+
+## Giant beaver mitogenome phylogeny
+
+```{r, out.width = "100%", out.height=500, dpi = 300, echo = FALSE, fig.cap=""}
+  include_graphics("./assets/img/Xenikoudakis et al. - 2020 - Ancient DNA reveals twenty million years of aquatic life in beavers.pdf")
 ```
 
 --- &twocol
@@ -386,11 +431,11 @@ include_graphics("./assets/img/castor_tree.svg")
 
 *** =right
 
-```{r, out.width = "60%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "60%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/Elephas mnaidriensis Grotta Puntali di notte.jpg")
 ```
 
-```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/Palaeoloxodon_falconeri_Size_Comparison.svg.png")
 ```
 
@@ -398,8 +443,16 @@ include_graphics("./assets/img/Palaeoloxodon_falconeri_Size_Comparison.svg.png")
 
 ## Dwarfing rate
 
-```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align='center'}
+```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
 include_graphics("./assets/img/dwarf.svg")
+```
+
+---
+
+## Dwarfing rate
+
+```{r, out.width = "100%", out.height=500, dpi = 300, echo = FALSE, fig.cap=""}
+  include_graphics("./assets/img/Baleka et al. - 2021 - Estimating the dwarfing rate of an extinct Sicilian elephant.pdf")
 ```
 
 ---
@@ -407,27 +460,9 @@ include_graphics("./assets/img/dwarf.svg")
 ## Background reading
 
 - Any phylogenetics chapters in the course text book, especially:
-- **Avise (2004) Molecular markers, natural history, and evolution **
-- **Page & Holmes (1998) Molecular evolution: a phylogenetic approach**
-- Papers for case studies at end of lecture
-
----
-
-```{r, out.width = "100%", out.height=500, dpi = 300, echo = FALSE}
-  include_graphics("./assets/img/Westbury et al. - 2017 - A mitogenomic timetree for Darwin’s enigmatic South American mammal Macrauchenia patachonica.pdf")
-```
-
----
-
-```{r, out.width = "100%", out.height=500, dpi = 300, echo = FALSE}
-  include_graphics("./assets/img/Xenikoudakis et al. - 2020 - Ancient DNA reveals twenty million years of aquatic life in beavers.pdf")
-```
-
----
-
-```{r, out.width = "100%", out.height=500, dpi = 300, echo = FALSE}
-  include_graphics("./assets/img/Baleka et al. - 2021 - Estimating the dwarfing rate of an extinct Sicilian elephant.pdf")
-```
+- Avise (2004) Molecular markers, natural history, and evolution
+- Page & Holmes (1998) Molecular evolution: a phylogenetic approach
+- Papers for case studies
 
 --- &thankyou
 
